@@ -1,10 +1,11 @@
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
   /* Create two equal columns that sits next to each other */
+/*   
   .column {
     flex: 50%;
     padding: 0 4px;
@@ -13,28 +14,42 @@
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-  }
+  } 
+  */
 
 
-  img {
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
-  }
   
-  .pics_in_a_row {
-    display: flex;
+  @media screen and (min-width: 480px) {
+    img {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+      }
+      
+      .pics_in_a_row {
+        display: flex;
+      }
+    
+    .pics_in_a_row {
+        margin: 25px 0;
+      }
+      
+      .pics_in_a_row > div:not(:last-child) {
+        margin-right: 2%;
+      }
+      
+      
+      .img1 { flex: 0.5625;}
+      .img2 { flex: 1.777; }
+      .img3 { flex: 1.33; }
+      .img4 { flex: 1.777; }
+      .img5 { flex: 1.33; }
+      .img6 {flex: 1.777;}
+      .img7{flex: 1.33;}
+    
+
   }
 
-.pics_in_a_row {
-    margin: 25px 0;
-  }
-  
-  .pics_in_a_row > div:not(:last-child) {
-    margin-right: 2%;
-  }
-  
-  
   .img1 { flex: 0.5625;}
   .img2 { flex: 1.777; }
   .img3 { flex: 1.33; }
@@ -42,3 +57,7 @@
   .img5 { flex: 1.33; }
   .img6 {flex: 1.777;}
   .img7{flex: 1.33;}
+  .img8{flex: 0.861;}
+  .img10{flex:0.75;}
+  .img9{flex: 0.5625;}
+  .img11{flex: 0.94;}
