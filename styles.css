@@ -20,24 +20,17 @@
 
 body {
     overflow-x: none;
+    font: Overpass;
 }
 
 @media screen and (max-width:480px) {
     video {
-        position: absolute;
-        transform: rotate(90deg);
-        transform-origin: bottom left;
-        width: 100vh;
-        height: 100vw;
-        margin-top: -100vw;
-        object-fit: cover;
-        z-index: 4;
-        visibility: visible;
+        margin: 100px 20px;
     }
     img {
         width: 90%;
         margin-left: 5%;
-        margin;
+        margin-bottom: 10px;
     }
 }
 
@@ -121,4 +114,13 @@ body {
 
 .img11 {
     flex: 0.94;
+}
+
+#footer{
+    align-content: center;
+    text-align: center;
+}
+
+p{
+    font-size: large;
 }
