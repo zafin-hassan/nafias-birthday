@@ -37,6 +37,12 @@ body {
 p{
     font-size:20px;
 }
+#wish{
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
 
 a {
     color: black !important;
